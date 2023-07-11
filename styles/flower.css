@@ -1,15 +1,16 @@
 .BANNER {
     display: flex;
     align-items: center;
-    padding: 0px  100px 0px ;
+    padding: 0px  100px 0px;
+    background: rgba(229, 84, 115, 0.10);
 
 }
-.BANNER .main-flower{
+.main-flower{
     width: 635px;
-    height: 400px;
+    height: 500px;
     justify-content: space-between;
 }
-.BANNER .BUTTON{
+.BUTTON{
     color: #FFF;
 font-family: Lato;
 font-size: 20px;
@@ -18,5 +19,94 @@ font-weight: 700;
 line-height: normal;
 background: #E55473;
 border-radius: 8px;
+display: inline-flex;
+padding: 20px 43px;
+border-radius: 8px;
+border-color: #E55473;
 }
-.
+.section-style{
+    text-align: center;
+    
+   
+    
+    
+}
+.serial-photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 24 px;
+    padding: 20px;
+    margin: 0px 20px;
+    
+    
+    
+    
+   
+}
+.input-image{
+    align-items: center;
+    text-align: center;
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    background-size: cover;
+    height: 300px;
+    margin: 0px 95px;
+    padding: 70px 0px 0px 0px;
+
+    
+    
+}
+
+.footer-style{
+    text-align: center;
+    background-color: black;
+    color: #FFF;
+    padding: 100ox;
+    
+}
+.hotdeal{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    background-position: bottom right;
+    gap: 200px;
+
+   
+    
+}
+
+.subscribe-button{
+    border-radius: 8px;
+    background: #E55473;
+    border: #E55473;
+    color: #FFF;
+   
+}
+ .one{
+
+    width: 200px;
+    height: 200px;
+    
+}
+.two{
+    width: 200px;
+    height: 200px;
+
+}
+.three{
+    width: 200px;
+    height: 200px;
+
+}
+.four{
+    width: 200px;
+    height: 200px;
+
+}
+.haireh{
+    color:#E55473;
+
+}
